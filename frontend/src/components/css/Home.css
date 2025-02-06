@@ -1,0 +1,23 @@
+table{
+    max-height: max-content;
+    background-color: #D3D9D4;
+    border-collapse: collapse;
+    margin: 20px 0;
+    color: black;
+}
+th,td{
+    width:100rem;
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 12px;
+}
+th{
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+tr:nth-child(even){
+    background-color: #f9f9f9;
+}
+tr:hover{
+    background-color: #e0e0e0;
+}
