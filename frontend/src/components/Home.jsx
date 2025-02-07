@@ -20,7 +20,7 @@ const [data, setData] = useState([]);
       { data.length === 0 ? (
         <p>Loading data ...</p>
       ) :( 
-      <table class="table">
+      <table className="table">
           <thead style={{backgroundColor: 'blue', color: 'red'}}>
               <tr>
                 <th>ID</th>
